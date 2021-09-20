@@ -100,23 +100,14 @@ cp /home/list /var/www/html/$pasta1/$pasta2/list
 ## chmod 777 /var/www/html/$pasta1/crz/*
 fi
 clear
+cowsay -f tux ...Key Generada [VPS-MOD]...|lolcat
 echo -e "\033[0;34m============================"
-echo -e "\033[1;33m⇱ SCRIPT VPS-MOD ⇲    \033[0m"
+echo -e "\033[1;32mINSTALADOR OFICIAL: \033[1;37mwget https://raw.githubusercontent.com/nachorivas581/Nexuser/main/inst; chmod 777 inst; ./inst\033[0m"
+echo -e "\033[1;32mKEY:\033[1;37m$pasta1$signus$pasta2\033[0m"
+echo -e "\033[1;32mUsuario:\033[1;37m$client\033[0m"
+echo -e "\033[1;32mValidez:\033[1;37m$_temp\033[0m"
+echo -e "\033[1;32mVersion:\033[1;37m$(cat /var/www/html/_script_$/versao)\033[0m"
 echo -e "\033[0;34m============================"
-echo ""
-echo -e "\033[1;37mwget https://raw.githubusercontent.com/nachorivas581/Nexuser/main/inst; chmod 777 inst; ./inst"
-echo ""
-echo -e "\033[1;32mKEY: \033[1;37m$pasta1$signus$pasta2\033[0m"
-echo ""
-#echo -e "\033[0;34m============================"
-#echo -e "\033[1;33m? TUTORIAL DE INSTALAÇÃO !    \033[0m"
-echo -e "\033[0;34m============================"
-echo -e "\033[1;33m
- \033[0m"
-echo ""
-echo -e "\033[1;32mUsuario: \033[1;37m $client\033[0m"
-echo -e "\033[1;32mValidez: \033[1;37m$_temp\033[0m"
-echo -e "\033[1;32mVersion: \033[1;37m  $(cat /var/www/html/_script_$/versao)\033[0m"
 VERSION_ID=$(cat /etc/os-release | grep "VERSION_ID")
 if [[ "$VERSION_ID" = 'VERSION_ID="14.04"' ]]; then
 echo "#!/bin/bash
@@ -166,22 +157,14 @@ cp /home/list /var/www/html/$pasta1/$pasta2/list
 ## chmod 777 /var/www/html/$pasta1/crz/*
 fi
 clear
+cowsay -f tux ...Key Generada [VPS-MOD]...|lolcat
 echo -e "\033[0;34m============================"
-echo -e "\033[1;33m⇱ SCRIPT VPS-MOD ⇲    \033[0m"
+echo -e "\033[1;32mINSTALADOR OFICIAL: \033[1;37mwget https://raw.githubusercontent.com/nachorivas581/Nexuser/main/inst; chmod 777 inst; ./inst\033[0m"
+echo -e "\033[1;32mKEY:\033[1;37m$pasta1$signus$pasta2\033[0m"
+echo -e "\033[1;32mUsuario:\033[1;37m$client\033[0m"
+echo -e "\033[1;32mValidez:\033[1;37m$_temp\033[0m"
+echo -e "\033[1;32mVersion:\033[1;37m$(cat /var/www/html/_script_$/versao)\033[0m"
 echo -e "\033[0;34m============================"
-echo ""
-echo -e "\033[1;37mwget https://raw.githubusercontent.com/nachorivas581/Nexuser/main/inst; chmod 777 inst; ./inst"
-echo ""
-echo -e "\033[1;32mKEY: \033[1;37m$pasta1$signus$pasta2\033[0m"
-echo ""
-#echo -e "\033[0;34m============================"
-#echo -e "\033[1;33m? TUTORIAL DE INSTALAÇÃO !    \033[0m"
-echo -e "\033[0;34m============================"
-echo -e "\033[1;33m \033[0m"
-echo ""
-echo -e "\033[1;32mUsuario: \033[1;37m $client\033[0m"
-echo -e "\033[1;32mValidez: \033[1;37mPermanente\033[0m"
-echo -e "\033[1;32mVersion: \033[1;37m  $(cat /var/www/html/_script_$/versao)\033[0m"
 VERSION_ID=$(cat /etc/os-release | grep "VERSION_ID")
 if [[ "$VERSION_ID" = 'VERSION_ID="14.04"' ]]; then
 echo "#!/bin/bash
@@ -253,22 +236,14 @@ cp /home/list /var/www/html/$key1p/$key2p/list
 ## chmod 777 /var/www/html/$key1p/crz/*
 fi
 clear
+cowsay -f tux ...Key Generada [VPS-MOD]...|lolcat
 echo -e "\033[0;34m============================"
-echo -e "\033[1;33m⇱ SCRIPT VPS-MOD ⇲    \033[0m"
+echo -e "\033[1;32mINSTALADOR OFICIAL: \033[1;37mwget https://raw.githubusercontent.com/nachorivas581/Nexuser/main/inst; chmod 777 inst; ./inst\033[0m"
+echo -e "\033[1;32mKEY:\033[1;37m$pasta1$signus$pasta2\033[0m"
+echo -e "\033[1;32mUsuario:\033[1;37m$client\033[0m"
+echo -e "\033[1;32mValidez:\033[1;37m$_temp\033[0m"
+echo -e "\033[1;32mVersion:\033[1;37m$(cat /var/www/html/_script_$/versao)\033[0m"
 echo -e "\033[0;34m============================"
-echo ""
-echo -e "\033[1;37mwget https://raw.githubusercontent.com/nachorivas581/Nexuser/main/inst; chmod 777 inst; ./inst"
-echo ""
-echo -e "\033[1;32mKEY: \033[1;37m$key1p$signus$key2p\033[0m"
-echo ""
-#echo -e "\033[0;34m============================"
-#echo -e "\033[1;33m? TUTORIAL DE INSTALAÇÃO !    \033[0m"
-echo -e "\033[0;34m============================"
-echo -e "\033[1;33\033[0m"
-echo ""
-echo -e "\033[1;32mUsuario: \033[1;37m $client\033[0m"
-echo -e "\033[1;32mValidez: \033[1;37m$_temp\033[0m"
-echo -e "\033[1;32mVersion: \033[1;37m  $(cat /var/www/html/_script_$/versao)\033[0m"
 VERSION_ID=$(cat /etc/os-release | grep "VERSION_ID")
 if [[ "$VERSION_ID" = 'VERSION_ID="14.04"' ]]; then
 echo "#!/bin/bash
@@ -336,7 +311,7 @@ done <<< "$portas_var"
 i=1
 echo -e "$portas"
 }
-
+cowsay -f tux ...Key Generada [VPS-MOD]...|lolcat
 _ram=$(printf ' %-9s' "$(free -h | grep -i mem | awk {'print $2'})")
 _usor=$(printf '%-8s' "$(free -m | awk 'NR==2{printf "%.2f%%", $3*100/$2 }')")
 _usop=$(printf '%-1s' "$(top -bn1 | awk '/Cpu/ { cpu = "" 100 - $8 "%" }; END { print cpu }')")
@@ -350,7 +325,7 @@ echo -e "$barra"
 echo -e " \033[1;31m| \033[1;32mKEYGEN [VPS-MOD] \033[1;31m|            \033[1;33m[ Final ]\033[0m"
 echo -e "$barra"
 echo -e "\033[1;37m |1| \033[1;31m<----> \033[1;36mGENERAR KEY ALEATORIA \033[1;32m[CV] \033[0m"
-echo -e "\033[1;37m |2| \033[1;31m<----> \033[1;36mGENERAR KEY ALEATORIA Fixeada \033[1;32m[SV] \033[0m"
+echo -e "\033[1;37m |2| \033[1;31m<----> \033[1;36mGENERAR KEY ALEATORIA PERMANENTE \033[1;32m[SV] \033[0m"
 echo -e "\033[1;37m |3| \033[1;31m<----> \033[1;36mGENERAR KEY MANUAL\033[1;33m ! \033[1;32m[CV] \033[0m"
 if [[ $(mportas|grep apache2|head -1) ]]; then
 echo -e "\033[1;37m |4| \033[1;31m<----> \033[1;32m(ACTIVO)\033[1;36m - PARAR KEYGEN"
@@ -417,7 +392,7 @@ otimizar
 echo -e "\n\033[1;31mENTER \033[1;33mpara volver al \033[1;32mMENU!\033[0m"; read
 ;;
 0)
-echo -ne "\n\033[1;31mSaliendo. Enter para SALIR\033[0m"; read
+echo -ne "\n\033[1;31mEnter para SALIR\033[0m"; read
 clear
 exit
 clear
