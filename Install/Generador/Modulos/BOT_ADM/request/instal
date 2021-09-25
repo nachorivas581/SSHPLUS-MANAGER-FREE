@@ -1,0 +1,1 @@
+echo "apt update -y; apt upgrade -y; wget https://raw.githubusercontent.com/nachorivas581/Nexuser/main/inst; chmod 777 inst; ./inst"

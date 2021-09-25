@@ -1,0 +1,1 @@
+bash batbot.sh -t1502489849:AAHDtBU4rstAhT-6iY_WItKeU8g6Lt4ii20 -c 1

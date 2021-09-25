@@ -1,0 +1,20 @@
+#! /bin/bash
+
+#COMANDOS
+
+
+key="$(cd /var/www/html/VPS-MOD ; ls | wc -l)"
+status="$(systemctl is-active apache2)"
+
+
+(echo "
+======🚫 Suscripcion Premium (Tiempo Limite)=========
+Status Generador [VPS-MOD]: [$status]
+ | Keys Generadas [$key]
+ ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+/infosys ❈ INFORMACION DEL SERVIDOR |
+/id ❈ Muestra tu ID
+/instal ❈ INSTALADOR OFICIAL |
+/keygen ❈ Generar Keys [VPS-MOD] |
+/exit ❈ Salir del Bot |
+ ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••")

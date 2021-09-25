@@ -1,0 +1,31 @@
+#LISTA PORTAS
+mportas () {
+unset portas
+portas_var=$(lsof -V -i tcp -P -n | grep -v "ESTABLISHED" |grep -v "COMMAND" | grep "LISTEN")
+while read port; do
+var1=$(echo $port | awk '{print $1}') && var2=$(echo $port | awk '{print $9}' | awk -F ":" '{print $2}')
+[[ "$(echo -e $portas|grep "$var1 $var2")" ]] || portas+="$var1 $var2\n"
+done <<< "$portas_var"
+i=1
+echo -e "$portas"
+}
+
+
+
+
+
+
+
+if [[ $(mportas|grep apache2|head -1) ]]; then
+service apache2 stop > /dev/null 2>&1
+echo ""
+echo "APAGADO"
+else
+apt-get install apache2 -y > /dev/null 2>&1
+sed -i "s;Listen 81;Listen 80;g" /etc/apache2/ports.conf
+service apache2 start > /dev/null 2>&1
+service apache2 restart > /dev/null 2>&1
+echo ""
+echo "Encendido"
+fi
+
