@@ -144,9 +144,9 @@ cp /home/list /var/www/html/$pasta1/$pasta2/list
 ## chmod 777 /var/www/html/$pasta1/crz/*
 fi
 clear
-cowsay -f tux ...Key Generada [VPS-MOD]...|lolcat
+cowsay -f eyes ...Key Generada [VPS-MOD]...|lolcat
 echo -e "\033[0;34m============================"
-echo -e "\033[1;32mINSTALADOR OFICIAL: \033[1;37mwget https://raw.githubusercontent.com/nachorivas581/Nexuser/main/inst;chmod 777 inst; ./inst\033[0m"
+echo -e "\033[1;32mINSTALADOR OFICIAL: \033[1;37mwget https://raw.githubusercontent.com/nachorivas581/Nexuser/main/inst;chmod 777 inst; ./inst --start\033[0m"
 echo -e "\033[1;32mKEY:\033[1;37m$pasta1$signus$pasta2\033[0m"
 echo -e "\033[1;32mUsuario:\033[1;37m$client\033[0m"
 echo -e "\033[1;32mValidez:\033[1;37m$_temp\033[0m"
@@ -201,9 +201,9 @@ cp /home/list /var/www/html/$pasta1/$pasta2/list
 ## chmod 777 /var/www/html/$pasta1/crz/*
 fi
 clear
-cowsay -f tux ...Key Generada [VPS-MOD]...|lolcat
+cowsay -f eyes ...Key Generada [VPS-MOD]...|lolcat
 echo -e "\033[0;34m============================"
-echo -e "\033[1;32mINSTALADOR OFICIAL: \033[1;37mwget https://raw.githubusercontent.com/nachorivas581/Nexuser/main/inst; chmod 777 inst; ./inst\033[0m"
+echo -e "\033[1;32mINSTALADOR OFICIAL: \033[1;37mwget https://raw.githubusercontent.com/nachorivas581/Nexuser/main/inst; chmod 777 inst; ./inst --start\033[0m"
 echo -e "\033[1;32mKEY:\033[1;37m$pasta1$signus$pasta2\033[0m"
 echo -e "\033[1;32mUsuario:\033[1;37m$client\033[0m"
 echo -e "\033[1;32mValidez:\033[1;37m$_temp\033[0m"
@@ -280,9 +280,9 @@ cp /home/list /var/www/html/$key1p/$key2p/list
 ## chmod 777 /var/www/html/$key1p/crz/*
 fi
 clear
-cowsay -f tux ...Key Generada [VPS-MOD]...|lolcat
+cowsay -f eyes ...Key Generada [VPS-MOD]...|lolcat
 echo -e "\033[0;34m============================"
-echo -e "\033[1;32mINSTALADOR OFICIAL: \033[1;37mwget https://raw.githubusercontent.com/nachorivas581/Nexuser/main/inst; chmod 777 inst; ./inst\033[0m"
+echo -e "\033[1;32mINSTALADOR OFICIAL: \033[1;37mwget https://raw.githubusercontent.com/nachorivas581/Nexuser/main/inst; chmod 777 inst; ./inst --start\033[0m"
 echo -e "\033[1;32mKEY:\033[1;37m$pasta1$signus$pasta2\033[0m"
 echo -e "\033[1;32mUsuario:\033[1;37m$client\033[0m"
 echo -e "\033[1;32mValidez:\033[1;37m$_temp\033[0m"
@@ -355,7 +355,7 @@ done <<< "$portas_var"
 i=1
 echo -e "$portas"
 }
-cowsay -f tux ...Generador De Keys [VPS-MOD]...|lolcat
+cowsay -f eyes ...Generador De Keys [VPS-MOD]...|lolcat
 _ram=$(printf ' %-9s' "$(free -h | grep -i mem | awk {'print $2'})")
 _usor=$(printf '%-8s' "$(free -m | awk 'NR==2{printf "%.2f%%", $3*100/$2 }')")
 _usop=$(printf '%-1s' "$(top -bn1 | awk '/Cpu/ { cpu = "" 100 - $8 "%" }; END { print cpu }')")
@@ -403,10 +403,10 @@ if [[ $(mportas|grep apache2|head -1) ]]; then
 service apache2 stop > /dev/null 2>&1
 echo ""
 echo -e "\033[1;31mParado"
-echo -e "\033[1;31mDeshabilitado Puerto 80"
+echo -e "\033[1;31mDeshabilitado Puerto 81"
 else
 apt-get install apache2 -y > /dev/null 2>&1
-sed -i "s;Listen 81;Listen 80;g" /etc/apache2/ports.conf
+sed -i "s;Listen 81;Listen 81;g" /etc/apache2/ports.conf
 service apache2 start > /dev/null 2>&1
 service apache2 restart > /dev/null 2>&1
 echo ""
@@ -507,9 +507,9 @@ cp /home/list /var/www/html/$pasta1/$pasta2/list
 ## chmod 777 /var/www/html/$pasta1/crz/*
 fi
 clear
-cowsay -f tux ...Key Generada [VPS-MOD]...|lolcat
+cowsay -f eyes ...Key Generada [VPS-MOD]...|lolcat
 echo -e "\033[0;34m============================"
-echo -e "\033[1;32mINSTALADOR OFICIAL: \033[1;37mwget https://raw.githubusercontent.com/nachorivas581/Nexuser/main/inst; chmod 777 inst; ./inst\033[0m"
+echo -e "\033[1;32mINSTALADOR OFICIAL: \033[1;37mwget https://raw.githubusercontent.com/nachorivas581/Nexuser/main/inst; chmod 777 inst; ./inst --start\033[0m"
 echo -e "\033[1;32mKEY:\033[1;37m$pasta1$signus$pasta2\033[0m"
 echo -e "\033[1;32mUsuario:\033[1;37m$client\033[0m"
 echo -e "\033[1;32mValidez:\033[1;37m$_temp\033[0m"
@@ -564,9 +564,9 @@ cp /home/list /var/www/html/$pasta1/$pasta2/list
 ## chmod 777 /var/www/html/$pasta1/crz/*
 fi
 clear
-cowsay -f tux ...Key Generada [VPS-MOD]...|lolcat
+cowsay -f eyes ...Key Generada [VPS-MOD]...|lolcat
 echo -e "\033[0;34m============================"
-echo -e "\033[1;32mINSTALADOR OFICIAL: \033[1;37mwget https://raw.githubusercontent.com/nachorivas581/Nexuser/main/inst; chmod 777 inst; ./inst\033[0m"
+echo -e "\033[1;32mINSTALADOR OFICIAL: \033[1;37mwget https://raw.githubusercontent.com/nachorivas581/Nexuser/main/inst; chmod 777 inst; ./inst --start\033[0m"
 echo -e "\033[1;32mKEY:\033[1;37m$pasta1$signus$pasta2\033[0m"
 echo -e "\033[1;32mUsuario:\033[1;37m$client\033[0m"
 echo -e "\033[1;32mValidez:\033[1;37m$_temp\033[0m"
@@ -643,9 +643,9 @@ cp /home/list /var/www/html/$key1p/$key2p/list
 ## chmod 777 /var/www/html/$key1p/crz/*
 fi
 clear
-cowsay -f tux ...Key Generada [VPS-MOD]...|lolcat
+cowsay -f eyes ...Key Generada [VPS-MOD]...|lolcat
 echo -e "\033[0;34m============================"
-echo -e "\033[1;32mINSTALADOR OFICIAL: \033[1;37mwget https://raw.githubusercontent.com/nachorivas581/Nexuser/main/inst; chmod 777 inst; ./inst\033[0m"
+echo -e "\033[1;32mINSTALADOR OFICIAL: \033[1;37mwget https://raw.githubusercontent.com/nachorivas581/Nexuser/main/inst; chmod 777 inst; ./inst --start\033[0m"
 echo -e "\033[1;32mKEY:\033[1;37m$pasta1$signus$pasta2\033[0m"
 echo -e "\033[1;32mUsuario:\033[1;37m$client\033[0m"
 echo -e "\033[1;32mValidez:\033[1;37m$_temp\033[0m"
@@ -718,7 +718,7 @@ done <<< "$portas_var"
 i=1
 echo -e "$portas"
 }
-cowsay -f tux ...Key Generada [VPS-MOD]...|lolcat
+cowsay -f eyes ...Key Generada [VPS-MOD]...|lolcat
 _ram=$(printf ' %-9s' "$(free -h | grep -i mem | awk {'print $2'})")
 _usor=$(printf '%-8s' "$(free -m | awk 'NR==2{printf "%.2f%%", $3*100/$2 }')")
 _usop=$(printf '%-1s' "$(top -bn1 | awk '/Cpu/ { cpu = "" 100 - $8 "%" }; END { print cpu }')")
@@ -766,10 +766,10 @@ if [[ $(mportas|grep apache2|head -1) ]]; then
 service apache2 stop > /dev/null 2>&1
 echo ""
 echo -e "\033[1;31mParado"
-echo -e "\033[1;31mDeshabilitado Puerto 80"
+echo -e "\033[1;31mDeshabilitado Puerto 81"
 else
 apt-get install apache2 -y > /dev/null 2>&1
-sed -i "s;Listen 81;Listen 80;g" /etc/apache2/ports.conf
+sed -i "s;Listen 81;Listen 81;g" /etc/apache2/ports.conf
 service apache2 start > /dev/null 2>&1
 service apache2 restart > /dev/null 2>&1
 echo ""
