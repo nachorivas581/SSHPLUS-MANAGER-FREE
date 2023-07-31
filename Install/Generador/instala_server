@@ -42,26 +42,26 @@ fun_attlist () {
 instala_fun () {
 clear
 echo -e "$barra"
-echo -e "      \033[1;33mINSTALADOR KEY SSHPLUS MANAGER !\033[0m"
+echo -e "      \033[1;33mINSTALADOR Server KEY [VPS-MOD] !\033[0m"
 echo -e "$barra"
 echo ""
-read -n1 -r -p " Enter to Continue..."
+read -n1 -r -p "Presiona enter para continuar..."
 echo ""
 # ACTUALIZA REPOSITORIO
-echo -e "\033[1;33mATUALIZANDO REPOSITÓRIOS..... \033[1;32mAGUARDE"
+echo -e "\033[1;33mActualizando Repositorios..... \033[1;32mESPERE PORFAVOR"
 apt-get update -y > /dev/null 2>&1
 apt-get upgrade -y > /dev/null 2>&1
-echo -e "\033[1;33mINSTALANDO RECURSOS.......... \033[1;32mAGUARDE"
+echo -e "\033[1;33mINSTALANDO RECURSOS.......... \033[1;32mESPERE PORFAVOR"
 apt-get install curl -y > /dev/null 2>&1
 apt-get install zip -y > /dev/null 2>&1
 apt-get install unzip -y > /dev/null 2>&1
 apt-get install wget -y > /dev/null 2>&1
 apt-get install apache2 -y > /dev/null 2>&1
-echo -e "\033[1;33mCONFIGURANDO APACHE.......... \033[1;32mAGUARDE"
+echo -e "\033[1;33mCONFIGURANDO APACHE.......... \033[1;32mESPERE PORFAVOR"
 sed -i "s;Listen 81;Listen 80;g" /etc/apache2/ports.conf
 service apache2 restart > /dev/null 2>&1
 #cp /var/www/html/index.html /var/www/html/index_back.html > /dev/null 2>&1
-echo -e "\033[1;33mPREPARANDO SISTEMA........... \033[1;32mAGUARDE"
+echo -e "\033[1;33mPREPARANDO SISTEMA........... \033[1;32mESPERE PORFAVOR"
     rm -rf /var/www/html/script
     rm -rf /var/www/html/scripts
     rm -rf /var/www/html/_script_$
@@ -75,7 +75,7 @@ echo -e "\033[1;33mPREPARANDO SISTEMA........... \033[1;32mAGUARDE"
     mkdir /var/www/html/script > /dev/null 2>&1
     mkdir /var/www/html/scripts > /dev/null 2>&1
     mkdir /var/www/html/_script_$ > /dev/null 2>&1
-echo -e "\033[1;33mDONWLOAD SERVER.............. \033[1;32mAGUARDE"
+echo -e "\033[1;33mDESCARGANDO SERVER.............. \033[1;32mESPERE PORFAVOR"
 cd
 [[ ! -d /var/www/html/_script_$ ]] && mkdir /var/www/html/_script_$
 cd /var/www/html/_script_$
@@ -84,14 +84,14 @@ unzip sshplus-v37.zip > /dev/null 2>&1
 rm -rf sshplus-v37.zip > /dev/null 2>&1
 cd
 sleep 3s
-echo -e "\033[1;33mINSTALANDO SISTEMA........... \033[1;32mAGUARDE"
+echo -e "\033[1;33mINSTALANDO SISTEMA........... \033[1;32mESPERE PORFAVOR"
 wget -O /var/www/html/scripts/Plus https://raw.githubusercontent.com/nachorivas581/SSHPLUS-MANAGER-FREE/master/Install/Generador/Modulos/Plus > /dev/null 2>&1
 wget -O /var/www/html/script/versao https://raw.githubusercontent.com/nachorivas581/SSHPLUS-MANAGER-FREE/master/Install/Generador/Modulos/versao > /dev/null 2>&1
 wget -O /home/index.html https://raw.githubusercontent.com/nachorivas581/SSHPLUS-MANAGER-FREE/master/Install/Generador/Modulos/index.html > /dev/null 2>&1
 wget -O /home/list https://raw.githubusercontent.com/nachorivas581/SSHPLUS-MANAGER-FREE/master/Install/Generador/Modulos/list > /dev/null 2>&1
 wget -O /bin/keyssh https://raw.githubusercontent.com/nachorivas581/SSHPLUS-MANAGER-FREE/master/Install/Generador/Modulos/keyssh > /dev/null 2>&1
 wget -O /bin/otimizar https://raw.githu.0_Update/Modulos/otimizar > /dev/null 2>&1
-echo -e "\033[1;33mPERMISOS ARQUIVOS............ \033[1;32mAGUARDE"
+echo -e "\033[1;33mPERMISOS ARQUIVOS............ \033[1;32mESPERE PORFAVOR"
     chmod +x  /var/www/html/Plus > /dev/null 2>&1
     chmod +x  /home/list > /dev/null 2>&1
     chmod +x  /home/versao > /dev/null 2>&1
@@ -100,7 +100,7 @@ echo -e "\033[1;33mPERMISOS ARQUIVOS............ \033[1;32mAGUARDE"
     chmod 777 /var/www/html/_script_$/*
     echo "/bin/keyssh" > /bin/key && chmod +x /bin/key #ACCESO RAPIDO
 cat /dev/null > ~/.bash_history && history -c # HISTORY
-echo -e "\033[1;33mMONTANDO O SEU LINK-IP....... \033[1;32mAGUARDE"
+echo -e "\033[1;33mMONTANDO Servidor....... \033[1;32mESPERE PORFAVOR"
 fun_ip
 sed -i "s;SEU-IP-AKI;$IP;g" /var/www/html/scripts/Plus > /dev/null 2>&1
 fun_ip
@@ -109,7 +109,7 @@ fun_ip
 sed -i "s;SEU-IP-AKI;$IP;g" /home/index.html > /dev/null 2>&1
 sleep 3s
 
-echo -e "\033[1;33mFINALIZANDO CONFIGURACION.... \033[1;32mAGUARDE"
+echo -e "\033[1;33mFINALIZANDO CONFIGURACION.... \033[1;32mESPERE PORFAVOR"
 cat /home/index.html >/var/www/html/script/index.html
 cat /home/index.html >/var/www/html/scripts/index.html
 cat /home/index.html >/var/www/html/_script_$/index.html
