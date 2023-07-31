@@ -117,9 +117,9 @@ service ssh restart >/dev/null 2>&1
 service apache2 restart >/dev/null 2>&1
 cat /dev/null > ~/.bash_history && history -c # HISTORY
 echo -e "$barra"
-echo -e " \033[1;36m> \033[1;37mPerfeito, Use o Comando \033[1;31mkeyssh / key "
-echo -e " \033[1;36m> \033[1;37mPara Gerenciar as Suas Keys e "
-echo -e " \033[1;36m> \033[1;37mAtualizar a Base do Servidor "
+echo -e " \033[1;36m> \033[1;37mPerfecto ,Proceso Finalizado \033[1;31mkeyssh / key "
+echo -e " \033[1;36m> \033[1;37mPara ver sus keys "
+echo -e " \033[1;36m> \033[1;37mActualizar la Base del Servidor "
 echo -e "$barra"
 rm -rf $HOME/instala_server && cat /dev/null > ~/.bash_history && history -c
 }
